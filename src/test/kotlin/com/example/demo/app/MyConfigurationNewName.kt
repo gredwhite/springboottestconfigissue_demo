@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.TestConfiguration
 import org.springframework.context.annotation.Bean
 
 @TestConfiguration
-open class MyConfiguration {
+open class MyConfigurationNewName {
     @Bean
     open fun propertiesHolder(): PropertiesHolder = mockk()
 }
