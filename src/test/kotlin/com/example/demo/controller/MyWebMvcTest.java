@@ -10,7 +10,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-@WebMvcTest(controllers = DemoControllerTestBroken.class)
+@WebMvcTest
 @AutoConfigureMockMvc(addFilters = false)
 @Import(JacksonConfig.class)
 public @interface MyWebMvcTest {
